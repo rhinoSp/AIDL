@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <Button
+        android:id="@+id/add_person_in"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_margin="5dp"
+        android:text="add person in"
+        android:onClick="addPersonIn"/>
+
+    <Button
+        android:id="@+id/add_person_out"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_margin="5dp"
+        android:text="add person out"
+        android:onClick="addPersonOut"/>
+
+    <Button
+        android:id="@+id/add_person_in_out"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_margin="5dp"
+        android:text="add person in out"
+        android:onClick="addPersonInOut"/>
+
+    <Button
+        android:id="@+id/get_person"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_margin="5dp"
+        android:text="get person"
+        android:onClick="getPerson"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/log"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:textColor="#FF000000"/>
+
+    </ScrollView>
+
+</LinearLayout>
